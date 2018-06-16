@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css?family=Fjalla+One');
+
+html {
+  background-color: black;
+  overflow: hidden;
+}
+
+body {
+  color: white;
+  font-family: 'Fjalla One';
+}
+
+.grabber {
+  font-size: 18vw;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-align: center;
+  transform: scaleY(1.1);
+}
+
+.snarky {
+  font-size: 8vw;
+  letter-spacing: -0.05em;
+}
