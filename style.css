@@ -2,12 +2,28 @@
 
 html {
   background-color: black;
-  overflow: hidden;
+  /* overflow: hidden; */
+  height: 100%;
 }
 
 body {
+  height: 100%;
+  margin: 0;
+  border: 0;
+}
+
+.entire-display {
   color: white;
   font-family: 'Fjalla One';
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+p {
+  margin: 0;
+  padding: 0;
 }
 
 .grabber {
@@ -21,4 +37,5 @@ body {
 .snarky {
   font-size: 8vw;
   letter-spacing: -0.05em;
+  text-align: center;
 }

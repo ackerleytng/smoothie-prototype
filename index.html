@@ -4,15 +4,19 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>smoothie</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.1/css/bulma.min.css">
-    <link rel="stylesheet" type="text/css" href="css/style.css">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+    <link rel="stylesheet" href="include/css/fontawesome.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+    <script src="include/js/jquery.min.js"></script>
+    <script src="https://smoothie-e5e2.restdb.io/assets/js/eventsource.min.js"></script>
+    <script src="https://smoothie-e5e2.restdb.io/rest/_jsapi.js"></script>
+    <script src="main.js"></script>
   </head>
   <body>
-    <section class="section">
+    <div class="entire-display">
       <div class="container">
-        <p class="grabber">WAFO <i class="fas fa-couch"></i></p>
-        <p class="snarky">Birthday today. Not replying yo.</p>
+        <p id="grabber" class="grabber">Loading <i class="fas fa-spinner fa-spin"></i></p>
+        <p id="snarky" class="snarky">Wait ah.</p>
       </div>
     </section>
   </body>
