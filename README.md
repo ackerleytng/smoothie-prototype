@@ -12,3 +12,21 @@ Turn off screen blanking and remove powersave, etc, by adding these lines to `~/
 ```
 
 Use `config/config.txt` to replace/augment `/boot/config.txt` to enable full 1024x600 resolution
+
+## Secrets
+
+`secrets.json` has to be created in this directory with the following format:
+
+```
+{
+  "apikey": "<restdb apikey goes here>"
+}
+```
+
+Set the webserver to serve from this directory for smoothie to work.
+
+```
+python -m http.server
+```
+
+And then navigate to http://localhost:8000.
