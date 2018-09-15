@@ -1,3 +1,3 @@
 #!/bin/sh
 
-chromium-browser index.html --start-fullscreen
+chromium-browser http://127.0.0.1 --kiosk --incognito --start-fullscreen
