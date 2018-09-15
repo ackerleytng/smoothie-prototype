@@ -30,3 +30,13 @@ python -m http.server
 ```
 
 And then navigate to http://localhost:8000.
+
+## Setting up the api key
+
+On restdb.io, create a CORS-enabled scoped API key, and
+
++ Allow REST API path: `/<collection name>`
++ Enable only `GET`
++ Under real time events, subscribe to
+    + `POST:<collection name>`
+    + `PUT:<collection name>`
