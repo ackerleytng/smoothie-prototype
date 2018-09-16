@@ -27,7 +27,7 @@ p {
 }
 
 .grabber {
-  font-size: 18vw;
+  font-size: 140pt;
   font-weight: bold;
   text-transform: uppercase;
   text-align: center;
@@ -35,7 +35,7 @@ p {
 }
 
 .snarky {
-  font-size: 8vw;
+  font-size: 60pt;
   letter-spacing: -0.05em;
   text-align: center;
 }
