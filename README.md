@@ -11,6 +11,14 @@ Turn off screen blanking and remove powersave, etc, by adding these lines to `~/
 @xset dpms 0 0 0
 ```
 
+To start this on boot, add the following to the same autostart file above
+
+```
+@/home/pi/smoothie-prototype/start.sh
+```
+
+Also, apply the nginx config from `config/nginx/smoothie-prototype.conf` (and start nginx on boot)
+
 Use `config/config.txt` to replace/augment `/boot/config.txt` to enable full 1024x600 resolution
 
 ## Secrets
