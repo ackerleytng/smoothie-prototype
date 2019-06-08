@@ -1,3 +1,4 @@
 #!/bin/sh
 
-chromium-browser http://127.0.0.1 --kiosk --incognito --start-fullscreen
+
+chromium-browser --app=http://localhost --kiosk --incognito --start-fullscreen
